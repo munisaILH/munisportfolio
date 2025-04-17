@@ -19,8 +19,13 @@ main {
 
 
 .image {
-    width: 50px;
-    height: 50px;
+    width: 250px;
+    height: 250px;
+    margin-top: -80px; 
+}
+.EggmanStuff {
+    width: 150px;
+    height: 150px;
     margin-top: -80px; 
 }
 
@@ -28,17 +33,24 @@ main {
 h2{
     font-family: 'Roboto', Sans-Serif;
 }
-.content-container {
+.imagesRtextL-container {
     display: flex;
-    align-items: flex-start;  /* aligns items to the top */
+    align-items: flex-start;
+    justify-content: space-between; /* optional: adds spacing */
+    gap: 20px; /* adds spacing between text and image */
 }
+
 
 .text {
     flex: 1;  
     margin-right: 80px;  /* this = space between text and image */
 }
-
-.image {
-    width: 250px;  /* adjust size of the image */
-    height: 250px;
+.subtext {
+    font-size: 0.85rem;
+    color: #555;         /* a softer gray color */
+    font-style: italic;  /* adds a bit of style */
+    margin-top: 10px;    /* spacing from above content */
 }
+
+
+
