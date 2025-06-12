@@ -67,7 +67,7 @@ h3{
 }
 
 .side-by-side img {
-    max-width: 5px;
+    max-width: 200px;
     height: auto;
     flex-shrink: 0; /* don't let images shrink */
 }
