@@ -56,15 +56,22 @@ h3{
 }
 .side-by-side {
     display: flex;
-    align-items: flex-start; /* aligns items to the top */
-    gap: 1px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* allows it to stack on small screens */
+    margin-top: 40px;
 }
-
 
 .side-by-side img {
-    max-width: 200px; /* Adjust this as needed */
+    max-width: 150px;
     height: auto;
+    flex-shrink: 0; /* don't let images shrink */
 }
+
 .side-by-side .text {
-    max-width: 445px;
+    max-width: 600px;
+    flex: 1;
+    min-width: 250px;
 }
+
