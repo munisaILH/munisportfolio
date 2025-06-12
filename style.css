@@ -33,6 +33,9 @@ main {
 h2{
     font-family: 'Roboto', Sans-Serif;
 }
+h3{
+    font-size: 25px;
+}
 .imagesRtextL-container {
     display: flex;
     align-items: flex-start;
@@ -51,6 +54,17 @@ h2{
     font-style: italic;  /* adds a bit of style */
     margin-top: 10px;    /* spacing from above content */
 }
+.side-by-side {
+    display: flex;
+    align-items: flex-start; /* aligns items to the top */
+    gap: 1px;
+}
 
 
-
+.side-by-side img {
+    max-width: 200px; /* Adjust this as needed */
+    height: auto;
+}
+.side-by-side .text {
+    max-width: 445px;
+}
